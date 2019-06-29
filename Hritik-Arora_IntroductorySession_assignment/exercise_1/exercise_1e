@@ -1,0 +1,4 @@
+I inspected my app usin Augury and explored the varoius fields present inside Augury.
+I inspected the variable 'title', that I used in my AppComponent using string interpolation, using Augury. In Augury, I see a 'State' 
+heading, under which my variable 'title' is displayed along with its value. I can change its value and by pressing enter, I can see
+what the output will be, on my web page.
