@@ -1,0 +1,3 @@
+<p>Inside S3C1</p>
+<p *ngIf = "childName">Button clicked on child {{childName}}</p>
+<app-s3-c2-component [myParent] = "name" (parentInvoke) = "onParentInvoke($event)"></app-s3-c2-component>

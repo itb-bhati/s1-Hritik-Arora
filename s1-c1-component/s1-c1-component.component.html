@@ -1,0 +1,6 @@
+
+<p>Inside S1C1 Component.</p>  
+
+<p *ngIf = "childName"> Button clicked on child {{childName}}</p>
+<app-s1-c2-component [myParent] = "name" (parentInvoke) = "onParentInvoke($event)"></app-s1-c2-component>
+
