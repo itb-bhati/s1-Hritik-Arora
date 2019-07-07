@@ -1,0 +1,1 @@
+Module S2 is not exported anywhere. S2 Module is in the imports section of the Shared Module but not in the exports section of the Shared Module. 

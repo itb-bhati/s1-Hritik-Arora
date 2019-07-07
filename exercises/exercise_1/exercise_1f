@@ -1,0 +1,3 @@
+I used ng.probe($0) { where $0 is representing my selected DOM element) on my console to fetch the various values that are returned by it.
+It displays you the DebugElement__PRE_R3__. Inside it, there are many objects and arrays that tell you many properties of the selected
+DOM element. Some of them are: attributes, children, ComponentInstance, context, parent etc.

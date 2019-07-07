@@ -1,0 +1,13 @@
+Every child has a button on it, named as: 'Click Me'. 
+The child element has an output property named 'parentInvoke', which is an instance of class 'EventEmitter'. It is declared as:
+	@Output() parentInvoke:EventEmitter<string> = new EventEmitter();
+
+On clicking the button, the child component emits this 'parentInvoke' event, with the value of 'name' variable.
+In the parent component, the child component is included as:
+	<app-child-component [myParent] = "name" (parentInvoke) = "onParentInvoke($event)"></app-child-component>
+
+And in the .ts file of the parent component, the function 'parentInvoke' is defined as:
+  onParentInvoke(childName:string)
+  {
+      this.childName = childName;
+  }

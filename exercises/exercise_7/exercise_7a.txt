@@ -1,0 +1,9 @@
+The following life cycle hooks are added in each component:
+	ngOnChanges
+	ngOnInit
+	ngDoCheck
+	ngAfterContentInit
+	ngAfterContentChecked
+	ngAfterViewInit
+	ngAfterViewChecked
+	ngOnDestroy

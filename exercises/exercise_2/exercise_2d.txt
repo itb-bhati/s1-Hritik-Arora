@@ -1,0 +1,2 @@
+The appropriate components, as per the diagram given in the question, are exported from the Shared Modules. For example, from the 
+module S3, the component S3C1 is exported, by puttting it in the exports section.

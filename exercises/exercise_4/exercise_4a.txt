@@ -1,0 +1,1 @@
+Modules S1 and S2 are exported. Any of the page can access it. They are declared in the exports section of the Shared Module.

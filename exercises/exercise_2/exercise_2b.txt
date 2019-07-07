@@ -1,0 +1,3 @@
+The Angular CLI commands used are:
+ng g m <module_name> --> For creating the modules
+ng g c <component_name> --> For creating the components

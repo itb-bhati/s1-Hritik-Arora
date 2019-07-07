@@ -1,0 +1,8 @@
+The concept of 'binding to custom properties' is used in all the parent components to send the data to the child components. The parent is sending the varibale 'name' to its child, which the child is printing.
+
+Eg) S3C2 component calls S3C2 Component like this:
+
+<app-s3-c3-component [myParent] = "name"></app-s3-c3-component>
+
+where, 'myParent' is an input property in the S3C3 component declared as:
+	@Input() myParent:string; 

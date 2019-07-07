@@ -1,0 +1,2 @@
+It is ensured that the components are declared in the correct module. The 'app.module.ts' imports all the modules.
+Inside ther modules, all the respective componenets are registered. 

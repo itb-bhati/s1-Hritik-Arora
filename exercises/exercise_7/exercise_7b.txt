@@ -1,0 +1,8 @@
+Every life cycle hook logs the following statement on the console:
+	'<life_cycle_hook_name> called'
+
+First of all, the constructor of the component gets called. After that, starting from ngOnInit, all the lifecycle hooks are called in sequence as defined in the previous text file. 
+
+ngOnChanges is called only after a bound input property changes, which in our case, never gets changed and hence, this hook is never called.
+
+Similarly, ngOnDestroy is called once the component is about to destroy.In our case, a component is never destroyed and hence, this hook never gets called. 
